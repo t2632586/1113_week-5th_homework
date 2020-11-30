@@ -1,0 +1,14 @@
+
+.page-link {
+    span {
+        color: $color-secondary;
+    }
+}
+.page-item {
+    a {
+        color: $color-secondary;
+        &:hover {
+            color: $color-secondary;
+        }
+    }
+}

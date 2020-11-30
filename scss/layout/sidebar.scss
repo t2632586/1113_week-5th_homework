@@ -1,0 +1,55 @@
+.wrap {
+    width: 100%;
+}
+.bg-sidebar{
+    width: 296px;
+    height: 100vh;
+    background-color: $color-primary;
+    padding: $pd-6 0;
+}
+.logo {
+    padding-left: $pd-6;
+}
+.sidebar-list {
+    li {
+        padding-bottom: $pd-6;
+    }
+    a {
+        border-left: 2px transparent solid;
+        padding: 0 31px;
+        &:hover {
+            color: $color-secondary;
+            text-decoration: none;
+            border-left: 2px $color-secondary solid;
+        }
+    }
+    span {
+        vertical-align: bottom;
+        padding-right: $pd-3;		
+    }
+}
+.profile-info {
+    padding-left: 31px;
+}
+.profile-pic{
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    img {
+        width: 40px;
+        height: auto;
+	    border-radius: -50%;
+    }
+}
+.profile-text{
+    padding-left: $pd-3;
+    a {
+        &:hover {
+            color: $color-secondary;
+            text-decoration: none;
+        }    
+    }
+}

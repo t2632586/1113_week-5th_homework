@@ -1,0 +1,68 @@
+.bg-main {
+    width: 100%;
+}
+.border {
+        margin: 25px 0;
+        border-bottom: 1px $color-light solid;
+}
+.main-icon {
+    a {
+        padding-left: $pd-5;
+    }
+    span {
+        color: $color-darker;
+        &:hover {
+            color: $color-secondary;
+        }
+    }
+}
+.main-list {
+    span {
+        vertical-align:bottom;
+    }
+    button {
+        color: $color-darker;
+        &:hover {
+            text-decoration: none;
+            color: $color-secondary;
+        }
+    }
+}
+.main-modal {
+    padding-left: $pd-8;
+    padding-right: $pd-8;
+    align-items: center;
+}
+.modal-content {
+    padding: $pd-6;
+}
+.modal-body {
+    input {
+        width: auto;
+        height: 51px;
+    }
+    a {
+        &:hover {
+            text-decoration: none;
+            color: $color-secondary;
+        }
+    }
+}
+.form-ver {
+    border: 1px $color-light solid;
+    padding: 16px 0;
+        &:hover {
+            background-color: $color-light;
+    }
+}
+.modal-footer {
+    button {
+        background-color: #ffffff;
+        color: $color-secondary;
+        border: 1px $color-secondary solid;
+        &:hover {
+            color: $color-primary;
+            background-color: $color-secondary;
+        }
+    }
+}

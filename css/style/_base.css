@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto Mono";
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.gutter {
+  padding: 32px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.d-flex {
+  display: flex;
+}

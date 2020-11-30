@@ -1,0 +1,37 @@
+// 宣告預設文字之變數
+$font-family-base:-apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
+
+
+body {
+    font-family: 'Roboto Mono';
+    line-height: 1.5;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+
+//容器設定
+$spacing: 16px;
+
+.container {
+    margin: 0 auto;
+}
+.gutter {
+    padding: $spacing * 2;
+}
+.text-align{
+    text-align: center;
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+.d-flex{
+    display: flex;
+}
